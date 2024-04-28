@@ -83,3 +83,9 @@
     opacity: 0;
     /* Hide the title on hover */
 }
+
+@media (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); /* Single column layout for screens up to 767px wide */
+    }
+}
